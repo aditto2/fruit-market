@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Market</title>
+    <!-- font-awesome -->
+    <script src="https://kit.fontawesome.com/f668b39ff0.js" crossorigin="anonymous"></script>
     <!-- tailwind-and-daisy-ui -->
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
@@ -12,7 +14,44 @@
 
 <body>
     <header>
-        
+        <div class="container mx-auto lg:px-24 px-8 my-8">
+            <div class="navbar bg-[#F85559] rounded-full px-8">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="text-white space-x-4 text-lg font-semibold hidden lg:flex">
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Shop</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="navbar-center lg:flex">
+                    <img src="images/logo.png" class="w-[40px]" alt="">
+                    <h6 class="lg:ml-4 ml-1 lg:text-2xl font-semibold text-white">Fruit Market</h6>
+                </div>
+                <div class="navbar-end">
+                    <div class="bg-white hidden lg:flex rounded-full px-6 py-3">
+                        <input type="search" class="outline-none" placeholder="Search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
