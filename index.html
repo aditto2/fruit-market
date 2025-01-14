@@ -263,7 +263,7 @@
 
         </section>
         <!-- team-section -->
-        <section  class="mx-auto lg:px-28 px-8 my-8">
+        <section class="mx-auto lg:px-28 px-8 my-8">
             <div
                 class="text-white text-center bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(../images/banner1.png)] bg-cover space-y-5 lg:p-12 p-5">
                 <h3 class="font-extrabold text-3xl lg:text-5xl">Meet The Team Section</h3>
@@ -407,12 +407,111 @@
                 </div>
             </div>
         </section>
+        <!-- contact-section -->
+        <section class="my-48">
+            <div class="container mx-auto lg:px-24 px-5">
+                <h3 class="font-bold text-center text-3xl mb-4">Contact Us Anytime</h3>
+                <p class="text-center text-lg w-2/3 mx-auto">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Soluta tempore eos aperiam esse! Architecto, dolores.</p>
+                <div class="grid grid-cols-1 lg:grid-cols-3 mt-8">
+                    <div class="lg:col-span-2">
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                            <div>
+                                <label for="">
+                                    First Name
+                                </label>
+                                <input type="text" placeholder="Type here" class="input input-bordered w-full mt-2" />
+                            </div>
+                            <div>
+                                <label for="">
+                                    Last Name
+                                </label>
+                                <input type="text" placeholder="Type here" class="input input-bordered w-full mt-2" />
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                            <div>
+                                <label for="">
+                                    Email
+                                </label>
+                                <input type="email" placeholder="Your Email" class="input input-bordered w-full mt-2" />
+                            </div>
+                            <div>
+                                <label for="">
+                                    Phone Number
+                                </label>
+                                <input type="number" placeholder="Your Number"
+                                    class="input input-bordered w-full mt-2" />
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <label for="">Your Message</label>
+                            <textarea class="textarea w-full textarea-bordered h-24" placeholder="Bio"
+                                rows="5"></textarea>
+                        </div>
+                        <button class="btn bg-red-400 mt-3 text-white">Send Message</button>
+                    </div>
+                    <div class="flex justify-center items-center flex-col space-y-5 mt-5">
+                        <div class="mx-auto">
+                            <div class="bg-slate-200 flex justify-center items-center p-5 rounded-lg">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div class="text-center space-y-4">
+                                <h6 class="font-bold text-3xl">Contact Info</h6>
+                                <p>Themes berg LLC <br>
+                                    Tax id : UXXXXX</p>
+                            </div>
+                        </div>
+                        <div class="mx-auto">
+                            <div class="bg-slate-200 flex justify-center items-center p-5 rounded-lg">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div class="text-center space-y-4">
+                                <h6 class="font-bold text-3xl">Contact Info</h6>
+                                <p>Themes berg LLC <br>
+                                    Tax id : UXXXXX</p>
+                            </div>
+                        </div>
+                        <div class="mx-auto">
+                            <div class="bg-slate-200 flex justify-center items-center p-5 rounded-lg">
+                                <i class="fa-solid fa-users"></i>
+                            </div>
+                            <div class="text-center space-y-4">
+                                <h6 class="font-bold text-3xl">Contact Info</h6>
+                                <p>Themes berg LLC <br>
+                                    Tax id : UXXXXX</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <div>
-
+    <footer class="footer footer-center bg-[#121212] text-base-content rounded p-10 text-white">
+        <div class="flex gap-5">
+            <img src="images/logo.png" alt="">
+            <h3 class="font-bold lg:text-4xl text-2xl">Fruit Market</h3>
         </div>
+        <nav class="grid lg:grid-flow-col gap-4">
+            <a class="link link-hover">Home</a>
+            <a class="link link-hover">About</a>
+            <a class="link link-hover">Shop</a>
+            <a class="link link-hover">All Fruit</a>
+            <a class="link link-hover">Support</a>
+            <a class="link link-hover">My Account</a>
+        </nav>
+        <div class="text-white flex gap-5">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-youtube "></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin "></i>
+            <i class="fa-brands fa-apple "></i>
+        </div>
+        <aside>
+            <p>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+        </aside>
     </footer>
 </body>
 
